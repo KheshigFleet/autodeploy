@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KHESH-怯薛近卫军</title>
+  
+  <subtitle>EVE华人联盟FRT旗下军团</subtitle>
+  <link href="https://github.com/KheshigFleet/KheshigFleet.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/KheshigFleet/KheshigFleet.github.io/"/>
+  <updated>2023-02-21T15:59:32.523Z</updated>
+  <id>https://github.com/KheshigFleet/KheshigFleet.github.io/</id>
+  
+  <author>
+    <name>KHESH</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>KOOK设置</title>
+    <link href="https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/21/KOOK/"/>
+    <id>https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/21/KOOK/</id>
+    <published>2023-02-21T15:57:32.240Z</published>
+    <updated>2023-02-21T15:59:32.523Z</updated>
+    
+    
+    <summary type="html">学会如何KOOK设置</summary>
+    
+    
+    
+    
+    <category term="新人" scheme="https://github.com/KheshigFleet/KheshigFleet.github.io/tags/%E6%96%B0%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>KOOK设置</title>
+    <link href="https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/21/QQ%E9%A2%91%E9%81%93/"/>
+    <id>https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/21/QQ%E9%A2%91%E9%81%93/</id>
+    <published>2023-02-21T15:57:23.425Z</published>
+    <updated>2023-02-21T15:59:55.343Z</updated>
+    
+    
+    <summary type="html">学会如何QQ频道设置</summary>
+    
+    
+    
+    
+    <category term="新人" scheme="https://github.com/KheshigFleet/KheshigFleet.github.io/tags/%E6%96%B0%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>KOOK设置</title>
+    <link href="https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/21/mumble/"/>
+    <id>https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/21/mumble/</id>
+    <published>2023-02-21T15:57:14.843Z</published>
+    <updated>2023-02-21T15:59:48.773Z</updated>
+    
+    
+    <summary type="html">学会如何mumble设置</summary>
+    
+    
+    
+    
+    <category term="新人" scheme="https://github.com/KheshigFleet/KheshigFleet.github.io/tags/%E6%96%B0%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>验证SSO</title>
+    <link href="https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/21/%E9%AA%8C%E8%AF%81SSO/"/>
+    <id>https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/21/%E9%AA%8C%E8%AF%81SSO/</id>
+    <published>2023-02-21T15:57:01.782Z</published>
+    <updated>2023-02-21T15:58:59.154Z</updated>
+    
+    
+    <summary type="html">学会如何提交验证联盟SEAT网站/SSO</summary>
+    
+    
+    
+    
+    <category term="新人" scheme="https://github.com/KheshigFleet/KheshigFleet.github.io/tags/%E6%96%B0%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章属性</title>
+    <link href="https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/20/%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE%E4%BD%A0%E7%9A%84%E6%94%BB%E7%95%A5%E5%92%8C%E6%99%BA%E6%85%A7/"/>
+    <id>https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/20/%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE%E4%BD%A0%E7%9A%84%E6%94%BB%E7%95%A5%E5%92%8C%E6%99%BA%E6%85%A7/</id>
+    <published>2023-02-19T16:04:28.210Z</published>
+    <updated>2023-02-21T15:13:19.225Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><p>软件: <a href="https://code.visualstudio.com/">VsCode</a> 进入之后直接点击Download for Windows</p><h4 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h4><p>你需要能够使用Vscode或者其他<a href="https://markdown.com.cn/">markdown</a>编辑器或者使用<a href="https://markdown.com.cn/editor/">在线编辑器</a></p><ol><li>打开Vscode</li><li>安装中文插件以及markdown插件<blockquote><p>ctrl + shift + x 打开插件市场（在vscode左侧）</p><ol><li>搜索 <code>chinese</code> 并<code>install</code>(安装),重启Vscode <em>中文插件安装完毕</em></li><li>依次点击软件左上角 文件 -&gt; 打开文件夹 并选择你要编辑的文档目录</li><li>在工作区右击中创建 <code>文章名.md</code> 文件 并打开</li><li>右上角找到打开侧边预览</li></ol></blockquote></li></ol><p>至此你就完成文章的全部前期准备</p><hr><p><strong>注：以下代码相关的符号都是英文半角</strong></p><h3 id="文章属性"><a href="#文章属性" class="headerlink" title="文章属性"></a>文章属性</h3><ul><li>文章属性简述：一些文章的基本内容如标题,简介,标签,置顶信息等<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: markdown基础</span><br><span class="line">description: 贡献你的EVE见闻</span><br><span class="line">top: 1000</span><br><span class="line">tags: [进阶]</span><br><span class="line">---</span><br></pre></td></tr></table></figure>在以上的代码中 <code>---</code> 所包裹的内容就是文章属性如<code>title</code>是标题 <code>description</code>是文章简述等<br>具体的文章属性见下表<table><thead><tr><th>属性英文</th><th>属性内容</th><th>使用方式/备注</th></tr></thead><tbody><tr><td>title</td><td>文章标题</td><td>/</td></tr><tr><td>top</td><td>优先级</td><td>（数字越大优先级越高，1000为置顶）</td></tr><tr><td>tags</td><td>文章标签</td><td>使用<code>[</code> <code>]</code> 包裹并使用 <code>,</code> 分隔多个标签</td></tr></tbody></table></li></ul>]]></content>
+    
+    
+    <summary type="html">贡献你的EVE见闻</summary>
+    
+    
+    
+    
+    <category term="进阶" scheme="https://github.com/KheshigFleet/KheshigFleet.github.io/tags/%E8%BF%9B%E9%98%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新人必读</title>
+    <link href="https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/19/%E6%96%B0%E4%BA%BA%E5%BF%85%E8%AF%BB/"/>
+    <id>https://github.com/KheshigFleet/KheshigFleet.github.io/2023/02/19/%E6%96%B0%E4%BA%BA%E5%BF%85%E8%AF%BB/</id>
+    <published>2023-02-19T15:37:14.065Z</published>
+    <updated>2023-02-21T16:03:48.318Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文假设你已经完成 <a href="">游戏下载</a>且已经创建完游戏内角色如果你没有或者需要重新进行前置步骤请 <u><a href="">点击此处</a></u></p><hr><h3 id="进入有克隆服务的空间站"><a href="#进入有克隆服务的空间站" class="headerlink" title="进入有克隆服务的空间站"></a>进入有克隆服务的空间站</h3><blockquote><p>FAQ:如何找到有克隆建筑？<br>游戏内左上角E标志—-工具—-建筑浏览器，有标记符号的就是克隆服务<br><img src="img/clone.png" alt="克隆仓"></p></blockquote><ul><li>空间站内 Alt+E，在搜索字符串内搜索“KheshigFleet”，打开申请，并在QQ找到你的新人教官等待批准申请。</li></ul><h3 id="一些必要的验证"><a href="#一些必要的验证" class="headerlink" title="一些必要的验证"></a>一些必要的验证</h3><p>申请加团后 在等待管理批准时你需要<strong>依次</strong>完成以下的一些内容提交</p><ol><li>*验证SSO（提高间谍加入成本的验证软件）<a href="">点击此处</a>以了解如何验证SSO信息</li><li>*使用mumble（语音软件，类似YY，提高间谍加入成本） <a href="">点击此处</a>以了解如何获取你的mumble登录信息</li><li>QQ频道（联盟活动通知）<a href="">点击此处</a>以了解如何设置你的QQ频道并正确接收通知信息  </li><li>KOOK（此应用与QQ频道2选一即可，优点是可以在网页端使用）<a href="">点击此处</a>以了解如何设置你的KOOK并正确接收通知信息  </li></ol>]]></content>
+    
+    
+    <summary type="html">欢迎每一个来到怯薛近卫军新人/老人，如果你之前没有在其他低安联盟停留过，你可能需要一些时间来阅读本文，并完成相关操作。</summary>
+    
+    
+    
+    
+    <category term="新人" scheme="https://github.com/KheshigFleet/KheshigFleet.github.io/tags/%E6%96%B0%E4%BA%BA/"/>
+    
+  </entry>
+  
+</feed>

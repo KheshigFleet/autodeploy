@@ -1,0 +1,47 @@
+name: Deploy
+
+# on 定义的是执行该 Action 的时机，这里的配置是指：
+# 当 main 分支的 push 事件被触发的时候执行该任务
+on:
+  push:
+    branches: [main]
+    tags:
+    - 'V*'
+# jobs 是定义你要运行的具体任务，
+# 每个 Action 可以有多个 Job
+# 每个 Job 可以有多个 Step
+# 每个 Step 又可以有多个 Run
+jobs:
+  build:
+    runs-on: ubuntu-latest # 运行在 ubuntu 系统环境下
+    steps:
+    - uses: actions/checkout@v2 # uses 命令允许我们使用别人定义好的 Action，这里是从仓库检出分支
+    - uses: actions/setup-node@v2 # 这里是设置 node 版本
+      with: # 这里相当于传递给上面指令的参数，告诉他使用 node@12.13.1 这个版本
+        node-version: '16.17.0'
+    - name: 安装hexo # name 定义步骤的名称，这个可以在该 Action 运行起来之后，在 Github Actions Tab 下看到
+      run: | # `run: |` 的方式，允许我们一次定义多个要执行的命令
+        npm install hexo-cli -g
+    - name: 安装依赖
+      run: | #
+        npm install
+    - name: 生成内容
+      run: | #
+        hexo g
+    - name: 配置本地git
+      working-directory: ./public # 指定下面指令运行的目录 git -c user.name='KheshigFleet' -c user.email='gwodin@163.com' commit -m 'deploy'
+      run: |
+        git init
+        git checkout -b main
+        git add -A
+        git config user.name 'KheshigFleet'
+        git config user.email 'gwodin@163.com'
+        git config user.password '${{secrets.KHESH}}'
+        git remote add origin https://github.com/KheshigFleet/KheshigFleet.github.io.git
+        git push --set-upstream origin main
+    # git push --force
+# - name: 推送到远程仓库
+#   working-directory: ./public
+#   run: |
+
+#     git push origin main -f -q
