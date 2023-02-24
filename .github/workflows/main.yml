@@ -34,6 +34,6 @@ jobs:
           git init
           git checkout -b main
           git add -A
-          git -c user.name='KheshigFleet' -c user.email='gwodin@163.com' commit -m 'deploy'
+          git -c user.name='KheshigFleet' -c user.email='gwodin@163.com' commit -m 'deploy at ${{ steps.date.outputs.date }}'
           git remote add origin https://${{secrets.AUTODEPLOY}}@github.com/KheshigFleet/KheshigFleet.github.io.git
           git push origin main -f -q
